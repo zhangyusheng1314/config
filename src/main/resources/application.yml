@@ -5,7 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/zhangyusheng1314/config_repo
+          uri: https://github.com/zhangyusheng1314/conifg_repo
+          username: zhangyusheng1314
+          password: zhangyusheng85
+          basedir: D:/ejj
 eureka:
   client:
     service-url:
