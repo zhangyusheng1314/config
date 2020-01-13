@@ -1,7 +1,7 @@
 spring:
   application:
     name: config
-  #连接git
+  #连接git远程
   cloud:
     config:
       server:
