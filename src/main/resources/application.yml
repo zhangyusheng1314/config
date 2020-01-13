@@ -1,6 +1,7 @@
 spring:
   application:
     name: config
+  #连接git
   cloud:
     config:
       server:
@@ -13,3 +14,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8001/eureka/
+#暴露出bus-refresh接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
