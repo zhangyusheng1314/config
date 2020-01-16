@@ -9,7 +9,11 @@ spring:
           uri: https://github.com/zhangyusheng1314/conifg_repo
           username: zhangyusheng1314
           password: zhangyusheng85
+          #更改配置文件同步到本地仓库的地址
           basedir: D:/ejj
+          #如果本地副本是脏的（即被修改过），它将使Spring Cloud配置服务器从远程存储库中强制pull.
+          #不配置会出现拉取不成功的情况
+          force-pull: true
 eureka:
   client:
     service-url:
