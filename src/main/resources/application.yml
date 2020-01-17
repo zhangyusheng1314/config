@@ -18,7 +18,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8001/eureka/
-#暴露出bus-refresh接口
+#暴露出actuator的所有接口
 management:
   endpoints:
     web:
